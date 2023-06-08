@@ -9,7 +9,7 @@ function App() {
 
   const handleSubmit = () => {
     axios
-      .get(`http://localhost:3000/data/${ae}/${node}`)
+      .get(`http://localhost:4000/data/${ae}/${node}`)
       .then((res) => {
         setData(res.data);
       })
